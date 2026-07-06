@@ -8,9 +8,18 @@
     <title>Document</title>
 </head>
 
-<body style="background-image: url('/images/background.png')" class=" bg-center bg-no-repeat h-screen relative z-1">
+<body  class="h-screen bg-cover bg-center bg-no-repeat" style="background-image: url('/images/background.png')">
     @include('layouts.header')
-    
+
+    <div class="flex-col py-auto ">
+        <h1 class="bg-blue-500 text-white text-5xl rounded-[7px] p-4 border border-black w-fit mx-auto">Años disponibles</h1>
+
+        <div class="flex justify-center m-10 ">
+        <button class="text-6xl rounded-[7px] text-white bg-blue-500 p-4 m-[10px] border border-black">2025</button>
+        <button class="text-6xl rounded-[7px] text-white bg-blue-500 p-4 m-[10px] border border-black">2026</button>
+        </div>
+
+    </div>
 </body>
 
 </html>
